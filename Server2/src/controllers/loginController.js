@@ -117,7 +117,7 @@ const login = async (req, res) => {
       logger.log('[LOGIN] User not found');
       return res.status(401).json({ message: 'Invalid credentials' });
     }
-
+    console.log('password', password)
     // Compare provided password with hashed password
     const validPassword = await bcrypt.compare(password, user.password);
     
