@@ -63,20 +63,6 @@ The project uses several npm packages including Express, Sequelize, MySQL2, Helm
    npm install
    ```
 
-3. **Configure Environment Variables:**  
-   Create a `.env` file in the root of the Server2 folder. Define variables such as:
-   - DB_NAME – the database name
-   - DB_USER – database user
-   - DB_PASSWORD – database password
-   - DB_HOST – database host
-   - DB_DIALECT – database dialect (e.g., mysql)
-   - DB_PORT – database port
-   - PORT – server port
-   - JWT_SECRET – secret key for JWT token signing
-   - CORS_ORIGIN – allowed origins (if additional configuration is needed)
-
-   This configuration is used by the database configuration (see configuration in the database.js file fileciteturn0file19).
-
 ------------------------------------------------------------
 
 ## Usage
